@@ -1,7 +1,10 @@
 import Heading from "../components/Heading";
+import styles from '../styles/Home.module.scss'
 
 const Home = () => (
-  <Heading text='Hello world!' />
+  <div className={styles.wrapper}>
+    <Heading text='Hello world!' />
+  </div>
 );
 
 export default Home;
